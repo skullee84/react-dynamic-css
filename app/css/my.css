@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*------------- joy babo1 -------------*/
+.root {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #777;
+  padding: 0 20px;
+  margin: 0 6px;
+  max-width: 400px;
+}
+
+/*------------- joy babo2 -------------*/
+.root2 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #33f;
+  padding: 0 20px;
+  margin: 0 6px;
+  max-width: 400px;
+}
