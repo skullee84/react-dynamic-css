@@ -6,10 +6,21 @@ export default class A extends React.Component {
     super(props);
   }
 
+  bindCss = (name) => {
+    return styles[name];
+  }
+
   render() {
+    console.log(styles);
     return (
-      <div className={styles.root}>
-        A
+      <div>
+        <div className={styles.root}>
+          A
+        </div>
+
+        <div className={this.bindCss('root2')}>
+          B
+        </div>
       </div>
     );
   }
